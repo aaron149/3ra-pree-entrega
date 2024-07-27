@@ -1,0 +1,517 @@
+#teclado{
+    background-image: url(../imagenes/fondo.png);
+}
+#mouse{
+    background-image: url(../imagenes/fondo-sega2.jpg);   
+}
+.pera{
+    background-image: url(../imagenes/fondo.png);
+}
+.ps2{
+   background-image: url(../imagenes/fondo-ps4.webp);
+}
+.formulario{
+    background-image: url(../imagenes/super-mario-bros-fondo.jpg);
+}
+.barco{
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 20px;
+    background-color: black;
+    align-items: center;
+      
+}
+.barco:hover{
+    color: yellow;
+}
+.cinta{
+    list-style: none;
+    color: blueviolet;
+}
+h1{
+    text-align: center;
+}
+main nav ul{
+    list-style: none;
+}
+nav ol{
+    list-style: none;
+}
+footer a{
+    color: white;
+}
+.pc{
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 10px;
+    background-color:black;
+    align-items: center;  
+}
+.pc:hover{
+    background-color: violet;
+    color: whitesmoke;
+}
+.leña{
+    display: flex;
+     flex-direction: row;
+     justify-content: space-between; 
+     gap: 20px;
+     align-items: center;
+    
+}
+
+.sub{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: black;
+}
+
+.sub:hover{
+    background-color: violet;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.station{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: black;
+    text-align: center;
+}
+
+.station:hover{
+    background-color: violet;
+    color: black;
+}
+
+  
+
+.manteca{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;  
+}
+.mate{
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.noni{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    display: block;
+}
+.noni:hover{
+    color: yellow;
+}
+.tuto{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    display: block;
+    margin: 10px;
+}
+.tuto:hover{
+    color: yellow;
+}
+.vide{
+    display: flex;
+    gap: 5px;
+}
+
+.card-text{
+  color: white;
+}
+
+ol li{
+    display: flex;
+    display: inline-block;
+}
+.ser{
+    color: white;
+    background-color: maroon;
+    display: flex;
+}
+.pao{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+
+}
+.lolo{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: black;
+}
+.lolo:hover{
+    background-color: violet;
+    color: whitesmoke;
+}
+
+.vide{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+    
+}
+.ftr{
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 5px;
+    background-color: violet;
+    align-items: center;
+}
+.seb{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: rgb(219, 69, 219);
+}
+
+.yer{
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    background-color: rgb(219, 69, 219); 
+}
+.jaja{
+    text-align: center;
+    background-color: rgb(219, 69, 219); 
+    border-radius: 3px;
+    color: white;
+    padding: 9px;
+}
+.barca{
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 5px;
+    background-color: rgb(219, 69, 219); 
+
+}
+.kag{
+    display: flex;
+    flex-direction: row;
+    
+}
+.papa{
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    background-color: black; 
+}
+.papa:hover{
+    background-color: violet;
+    color: whitesmoke;
+}
+.pantalla{
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    background-color: rgb(0, 0, 0); 
+    display: inline-block;
+}
+.pantalla:hover{
+    background-color: black;
+    color: yellow;
+}
+.barci{
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.barci:hover{
+    background-color: black;
+    color: yellow;
+}
+.tutorial{
+   margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tutoria{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 7px;
+
+}
+.logo-ps2{
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+
+}
+.uña{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: black;
+    text-align: center;
+}
+.uña:hover{
+    background-color: violet;
+    color: black;
+}
+.piojo{
+    width: 100px;
+    width: 100px;
+}
+.tere{
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 10px;
+    background-color: black;
+    text-align: center;
+}
+.ajo{
+
+display: flex;
+justify-content: space-evenly;
+}
+
+.tere:hover{
+    background-color: violet;
+    color: black;
+}
+.gaga{
+ 
+    text-align: center; 
+}
+.rouser{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.rouser:hover{
+    background-color: violet;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.bay{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.bay:hover{
+    background-color: black;
+}
+
+.form-label{
+    color: black;
+    font-weight: 500;
+}
+.form-label:hover{
+    color: yellowgreen;
+}
+
+
+.indio{
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 10px;
+    background-color: lightblue;
+    align-items: center;
+    
+}
+.indio:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.loli{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: lightblue;
+}
+.loli:hover{
+    background-color: black;
+    color: yellow;
+}
+.gatita{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.gatita:hover{
+    background-color: crimson;
+    color: white;
+}
+
+.robot{
+    background-color: black;
+}
+
+/* carrousel */
+.slide{
+    margin-top: 10px;
+}
+.slide img{
+    height: 65vh;
+}
+
+.card{
+    display: flex;
+    display: inline;
+}
+.card-img-top{
+    width: 500px;
+    height: 200px;
+}
+.bell .img-dos, main .img-cinco{
+ display: none;
+}
+
+.bell div img{
+    /* width:  es el ancho; */
+     width: 100%;
+     /* height: ;es el alto */
+    height: 100%;
+    /* object-fit: cover;  para que se adapte ala pantalla */
+    }
+.bell{
+ margin: 0 30px;
+ height: 80vh;
+ display: grid;
+ grid-template-rows: 25% 25% 25% ;
+ grid-template-columns: 1fr ; 
+ align-content: center;
+ row-gap: 20px;
+  }
+       
+ .accordion-button{
+    background-color: black;
+    color: whitesmoke;
+ }
+ .accordion-item{
+    background-color: black;
+    color: whitesmoke;
+ }
+
+
+
+  /* mq formulario */
+@media screen and (min-width:768px ) {
+/* desntro del media querin ponemos los codigos css que queremos modificar */
+ .formulario{
+    background-image: url(../imagenes/fondo-ps4.webp);
+    color: whitesmoke;
+ }
+ .form-label{
+    color: white;
+ }
+ .indio{
+    background-color: black;
+    color: white;
+ }
+ }
+ main{
+ grid-template-columns: repeat(2,1fr) ;
+ grid-template-columns: repeat(2,40%) ;
+ column-gap: 20px;
+ }
+ main .img-cuatro{
+  grid-column: span 2;
+  grid-row: span 2;
+ }
+
+
+@media screen and (min-width:1024px) {
+
+}
+ 
+ main .img-dos, main .img-cinco{
+ display: block;
+ }
+ main{
+grid-template-columns: repeat(3, 1fr) ;
+grid-template-rows: 35% 35% 15% ; 
+ }
+ main .img-uno, main .img-tres{
+  grid-row: span 2;
+ }
+ main .img-dos, main .img-cuatro{
+ grid-column: span 1;
+ }
+ main .img-cinco{
+  grid-column: span 3;
+ }
+ 
+
+
+ /* mq play station 2 */
+ @media screen and (min-width:768px ) {
+    /* desntro del media querin ponemos los codigos css que queremos modificar */
+     .ps2{
+        background-image: url(../imagenes/fondo.png);
+        color: whitesmoke;
+     }
+     .form-label{
+        color: white;
+     }
+     .indio{
+        background-color: black;
+        color: white;
+     }
+     }
+     main{
+     grid-template-columns: repeat(2,1fr) ;
+     grid-template-columns: repeat(2,40%) ;
+     column-gap: 20px;
+     }
+     main .img-cuatro{
+      grid-column: span 2;
+      grid-row: span 2;
+     }
+    
+    
+    @media screen and (min-width:1024px) {
+    
+    }
+     
+     main .img-dos, main .img-cinco{
+     display: block;
+     }
+     main{
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 35% 35% 15% ; 
+     }
+     main .img-uno, main .img-tres{
+      grid-row: span 2;
+     }
+     main .img-dos, main .img-cuatro{
+     grid-column: span 1;
+     }
+     main .img-cinco{
+      grid-column: span 3;
+     }
+    
