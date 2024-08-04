@@ -1,16 +1,22 @@
 /* index.html */
+#teclado{
+    margin: 0%;
+}
 .barco{
     color: white;
     border-radius: 5px;
     padding: 3px;
     margin: 20px;
     background-color: black;
-    align-items: center;   
+    align-items: center;    
+    text-decoration: none;
 }
 .manteca{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;  
+    min-height: 70px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .mate{
    width: 200px;
@@ -19,11 +25,12 @@
    border-radius: 10px;
 }
 .juana{
- margin-top: 20px;
- width: 50%;
+    margin-top: 20px;
+    width: 50%;
 }
 .manteca .ferrere{
     display: flex;
+
     justify-content: space-between;
 }
 .manteca li{
@@ -59,11 +66,77 @@
     display: flex;
     flex-direction: row;  
 }
-
+.noni{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.noni:hover{
+    color: yellow;
+}
+.tuto{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.tuto:hover{
+    color: yellow;
+}
+.pantalla{
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    background-color: rgb(0, 0, 0); 
+    display: inline-block;
+}
+.pantalla:hover{
+    background-color: black;
+    color: yellow;
+}
 
 /* family.html */
 /* el header tiene las mismas clases todos */
 
+
+.jaja{
+    text-align: center;
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+    padding: 9px;
+    margin: 15px;
+}
+.jaja:hover{
+    background-color: rgb(219, 69, 219);
+    color: whitesmoke;
+}
+
+.barca{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 5px;
+    text-decoration: none;
+   
+}
+.barca:hover{
+    background-color: rgb(219, 69, 219);
+    color: white; 
+}
+.kag{
+    display: flex;
+    flex-direction: row;
+    
+}
 
 
 
@@ -72,16 +145,135 @@
 
 
 /* formulario.html */
+.lara{
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 20px;
+    background-color: black;
+    align-items: center; 
+}
+.lara:hover{
+    background-color: black;
+    color: yellow;
+}
+.pap{
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    background-color: black; 
+}
+.loli{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: black;
+}
+.loli:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.form-label{
+    color: black;
+    font-weight: 500;
+}
+.form-label:hover{
+    color: yellowgreen;
+}
+
+
 
 
 
 /* ps2 */
 
 
+.gaga{
+ 
+    text-align: center; 
+}
+.rouser{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.rouser:hover{
+    background-color: violet;
+    color: black;
+}
+.pao{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+
+}
+.uña{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: black;
+    text-align: center;
+}
+.uña:hover{
+    background-color: violet;
+    color: black;
+}
+.station{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: black;
+    text-align: center;
+}
+
+.station:hover{
+    background-color: violet;
+    color: black;
+}
+.tere{
+    color: white;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 10px;
+    background-color: black;
+    text-align: center;
+}
+.ajo{
+
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+}
+
+.tere:hover{
+    background-color: violet;
+    color: black;
+}
+
+.tutorial{
+    margin: 20px;
+     text-align: center;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .logo-ps2{
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+
+}
 
 
 
 /* sega */
+
 .leña{
     display: flex;
     flex-direction: row;
@@ -101,13 +293,50 @@
     background-color: black;
     align-items: center;   
 }
+
 .pc:hover{
+    background-color: violet;
+    color: whitesmoke;
+}
+.sub{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: black;
+}
+
+.sub:hover{
+    background-color: violet;
+    color: white;
+}
+.lolo{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: black;
+}
+.lolo:hover{
+    background-color: violet;
+    color: whitesmoke;
+}
+.papa{
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    background-color: black; 
+}
+.papa:hover{
     background-color: violet;
     color: whitesmoke;
 }
 
 
+    
 
+/* body de mis html */
 
 #teclado{
     background-image: url(../imagenes/fondo.png);
@@ -122,7 +351,7 @@
    background-image: url(../imagenes/fondo-ps4.webp);
 }
 .formulario{
-    background-image: url(../imagenes/super-mario-bros-fondo.jpg);
+    background-image: url(../imagenes/fondo-ps4.webp);
 }
 
 .tete{
@@ -147,72 +376,20 @@ nav ol{
 footer a{
     color: white;
 }
-.pc{
-    color: white;
-    border-radius: 3px;
-    padding: 2px;
-    margin: 10px;
-    background-color:black;
-    align-items: center;  
-}
 
 
 
-.sub{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: black;
-}
 
-.sub:hover{
-    background-color: violet;
-    color: white;
-}
+
 h2{
     text-align: center;
-}
-.station{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: black;
-    text-align: center;
-}
-
-.station:hover{
-    background-color: violet;
-    color: black;
 }
 
   
 
 
-.noni{
-    background-color: black;
-    color: whitesmoke;
-    display: flex;
-    display: block;
-}
-.noni:hover{
-    color: yellow;
-}
-.tuto{
-    background-color: black;
-    color: whitesmoke;
-    display: flex;
-    display: block;
-    margin: 10px;
-}
-.tuto:hover{
-    color: yellow;
-}
-.vide{
-    display: flex;
-    gap: 5px;
-}
+
+
 
 .card-text{
   color: white;
@@ -227,203 +404,19 @@ ol li{
     background-color: maroon;
     display: flex;
 }
-.pao{
-    width: 400px;
-    height: 300px;
-    margin: 20px;
 
-}
-.lolo{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: black;
-}
-.lolo:hover{
-    background-color: violet;
-    color: whitesmoke;
-}
 
-.vide{
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-    
-}
 
-.seb{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: rgb(219, 69, 219);
-}
-
-.yer{
-    text-align: center;
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    background-color: rgb(219, 69, 219); 
-}
-.jaja{
-    text-align: center;
-    background-color: rgb(219, 69, 219); 
-    border-radius: 3px;
-    color: white;
-    padding: 9px;
-}
-.barca{
-    color: white;
-    border-radius: 3px;
-    padding: 2px;
-    margin: 5px;
-    background-color: rgb(219, 69, 219); 
-
-}
-.kag{
-    display: flex;
-    flex-direction: row;
-    
-}
-.papa{
-    text-align: center;
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    background-color: black; 
-}
-.papa:hover{
-    background-color: violet;
-    color: whitesmoke;
-}
-.pantalla{
-    text-align: center;
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    background-color: rgb(0, 0, 0); 
-    display: inline-block;
-}
-.pantalla:hover{
-    background-color: black;
-    color: yellow;
-}
-
-.tutorial{
-   margin: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-}
-.tutoria{
-    width: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 7px;
-
-}
-.logo-ps2{
-    width: 140px;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 5px;
-
-}
-.uña{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: black;
-    text-align: center;
-}
-.uña:hover{
-    background-color: violet;
-    color: black;
-}
-.piojo{
-    width: 100px;
-    width: 100px;
-}
-.tere{
-    color: white;
-    border-radius: 3px;
-    padding: 2px;
-    margin: 10px;
-    background-color: black;
-    text-align: center;
-}
-.ajo{
-
-display: flex;
-justify-content: space-evenly;
-}
-
-.tere:hover{
-    background-color: violet;
-    color: black;
-}
-.gaga{
- 
-    text-align: center; 
-}
-.rouser{
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-.rouser:hover{
-    background-color: violet;
-    color: black;
-}
 a{
     text-decoration: none;
 }
+/* footer */
 .bay{
     background-color: rgb(0, 0, 0);
     text-align: center;
     
 }
-
-
 .bay:hover{
-    background-color: black;
-}
-
-.form-label{
-    color: black;
-    font-weight: 500;
-}
-.form-label:hover{
-    color: yellowgreen;
-}
-
-
-.loli{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: lightblue;
-}
-.loli:hover{
-    background-color: black;
-    color: yellow;
-}
-.gatita{
-    background-color: black;
-    color: aliceblue;
-    border-radius: 5px;
-}
-
-.gatita:hover{
-    background-color: crimson;
-    color: white;
-}
-
-.robot{
     background-color: black;
 }
 
@@ -443,9 +436,6 @@ a{
     width: 500px;
     height: 200px;
 }
-.bell .img-dos, main .img-cinco{
- display: none;
-}
 
 .bell div img{
     /* width:  es el ancho; */
@@ -454,15 +444,7 @@ a{
     height: 100%;
     /* object-fit: cover;  para que se adapte ala pantalla */
     }
-.bell{
- margin: 0 30px;
- height: 80vh;
- display: grid;
- grid-template-rows: 25% 25% 25% ;
- grid-template-columns: 1fr ; 
- align-content: center;
- row-gap: 20px;
-  }
+
        
  .accordion-button{
     background-color: black;
@@ -473,101 +455,95 @@ a{
     color: whitesmoke;
  }
 
-
-
-  /* mq formulario */
-@media screen and (min-width:768px ) {
-/* desntro del media querin ponemos los codigos css que queremos modificar */
- .formulario{
-    background-image: url(../imagenes/fondo-ps4.webp);
-    color: whitesmoke;
- }
- .form-label{
-    color: white;
- }
- .indio{
-    background-color: black;
-    color: white;
- }
- }
- main{
- grid-template-columns: repeat(2,1fr) ;
- grid-template-columns: repeat(2,40%) ;
- column-gap: 20px;
- }
- main .img-cuatro{
-  grid-column: span 2;
-  grid-row: span 2;
- }
-
-
-@media screen and (min-width:1024px) {
-
-}
  
  main .img-dos, main .img-cinco{
- display: block;
+  display: none;
+ }main div img{
+ /* width:  es el ancho; */
+ width: 100%;
+ /* height: ;es el alto */
+ height: 100%;
+ /* object-fit: cover;  para que se adapte ala pantalla */
  }
  main{
-grid-template-columns: repeat(3, 1fr) ;
-grid-template-rows: 35% 35% 15% ; 
- }
- main .img-uno, main .img-tres{
-  grid-row: span 2;
- }
- main .img-dos, main .img-cuatro{
- grid-column: span 1;
- }
- main .img-cinco{
-  grid-column: span 3;
+ margin: 0 30px;
+ height: 80vh;
+  display: grid;
+  grid-template-rows: 25% 25% 25% ;
+ grid-template-columns: 1fr ; 
+ align-content: center;
+ row-gap: 20px;
  }
  
-
-
- /* mq play station 2 */
- @media screen and (min-width:768px ) {
-    /* desntro del media querin ponemos los codigos css que queremos modificar */
-     .ps2{
-        background-image: url(../imagenes/fondo.png);
-        color: whitesmoke;
-     }
-     .form-label{
-        color: white;
-     }
-     .indio{
-        background-color: black;
-        color: white;
-     }
-     }
-     main{
-     grid-template-columns: repeat(2,1fr) ;
-     grid-template-columns: repeat(2,40%) ;
-     column-gap: 20px;
-     }
-     main .img-cuatro{
-      grid-column: span 2;
-      grid-row: span 2;
-     }
-    
-    
-    @media screen and (min-width:1024px) {
-    
+/* formulario para mobile */
+ @media only screen and (max-width:500px){
+    .formulario{
+        background-image: url(../imagenes/minecraf-juego.webp);
     }
-     
-     main .img-dos, main .img-cinco{
-     display: block;
-     }
-     main{
-    grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 35% 35% 15% ; 
-     }
-     main .img-uno, main .img-tres{
-      grid-row: span 2;
-     }
-     main .img-dos, main .img-cuatro{
-     grid-column: span 1;
-     }
-     main .img-cinco{
-      grid-column: span 3;
-     }
-    
+    .juana{
+        flex-wrap: wrap;
+        margin-right: 100px;
+    }
+    .bell .img-dos .bell .img-cinco{
+        display: none;
+    }
+    .bell div img{
+        width: 100%;
+        height: 100%;
+    }
+    .bell{
+        margin: 0 30px;
+        height: 80vh;
+        display: grid;
+        grid-template-rows: 25% 25% 25%;
+        grid-template-columns: 1fr;
+        align-content: center;
+        row-gap: 20px;
+    }
+    .pap{
+        text-align: center;
+    }
+ }
+/* formulario para tablet */
+ @media only screen and (min-width:500px) and (max-width:960px){
+    .formulario{
+        background-image: url(../imagenes/super-mario-bros-fondo.jpg);
+    }
+    .bell{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 40%);
+        column-gap: 20px;
+    }
+    .bell .img-cuatro{
+      grid-column: span 2;
+    }
+
+ }
+ /* formulario para pc */
+ @media only screen and (min-width:961px){
+  
+    .formulario{
+        background-image: url(../imagenes/fondo-ps4.webp);
+    }
+    .bell .img-dos .bell .img-cinco{
+        grid-row: span 1;
+    }
+    .bell{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 35% 35% 15%;
+        column-gap: 20px;
+    }
+    .bell .img.uno .bell .img-tres{
+        grid-row: span 2;
+    }
+    .bell .img-dos .bell .img-cuatro{
+        grid-column: span 1;
+    }
+    .bell .img-cinco{
+        grid-column: span 3;
+    }
+
+ }
+
+
+ /* vercion mobile para el index.html */
