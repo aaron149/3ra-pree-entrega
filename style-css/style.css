@@ -18,6 +18,29 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+/* acordion juegos */
+.card-text{
+    background-color: black;
+    color: whitesmoke;
+   text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.card-text:hover{
+  color: yellow;
+}
+.toper{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 9px;
+    padding: 7px;
+   margin-left: 199px;
+}
+.toper:hover{
+    background-color: palevioletred;
+    color: black;
+}
 .mate{
    width: 200px;
    height: 60px;
@@ -40,6 +63,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
     
 }
 .duran{
@@ -478,9 +502,14 @@ a{
  /* mq tablet */
 @media screen and (min-width:768px ) {
     /* desntro del media querin ponemos los codigos css que queremos modificar */
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
     .formulario{
         background-image: url(../imagenes/super-mario-bros-fondo.jpg);
     }
+    
     .bell{
         grid-template-columns: repeat(2,1fr) ;
         grid-template-columns: repeat(2,40%) ;
@@ -515,6 +544,9 @@ a{
 
 /* vercion mobile,tablet y pc para index.html */
  /* version mobile para index.html */
+ .toper{
+    margin-right: 70px;
+ }
  main .img-dos, main .img-cinco{
     display: none;
  }
@@ -527,8 +559,8 @@ a{
     }
  
  .bell{
-    margin: 0 30px;
-    height: 140vh;
+    margin: 0px 30px;
+    height: 150vh;
     display: grid;
     grid-template-rows: 25% 25% 25% ;
     grid-template-columns: 1fr ; 
@@ -542,16 +574,67 @@ a{
  @media screen and (min-width:768px ) {
     /* desntro del media querin ponemos los codigos css que queremos modificar */
     #teclado{
-        background-image: url(../imagenes/fondo.png);
+        background-image: url(../imagenes/fondo-ps4.webp);
     }
     .bell{
         grid-template-columns: repeat(2,1fr) ;
         grid-template-columns: repeat(2,40%) ;
-        column-gap: 20px;
+        /* column-gap: 20px; */
+        margin: 0px 30px;
+        height: 150vh;
+        display: grid;
+        grid-template-rows: 25% 25% 25% ;
+        grid-template-columns: 1fr ; 
+        align-content: center;
+        row-gap: 20px;
     }
     .bell .img-cuatro{
         grid-column: span 2;
+        height: 400px;
     }
+    .bell .img-uno{
+        grid-column: span 1;
+        width: 430px;
+
+    }
+    .card-img-top{
+        width: 800px;
+        height: 300px;
+        border-radius: 1%;
+        
+        
+    }
+   
+    .card{
+        margin-left: 20px;
+       }
+       /* #accordionExample{
+        margin: 0% 30px 30px 30px;
+    } */
+    .card-text{
+        background-color: black;
+        color: whitesmoke;
+       text-align: center;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .card-text:hover{
+      color: yellow;
+    }
+    .toper{
+        background-color: black;
+        color: whitesmoke;
+        border-radius: 9px;
+        padding: 7px;
+       margin-left: 300px;
+    }
+    .toper:hover{
+        background-color: palevioletred;
+        color: black;
+    }
+    
+    
 }
 /* mq desktop */
 @media screen  and (min-width:1024px) {
@@ -574,6 +657,36 @@ a{
     .bell .img-cinco{
         grid-column: span 3;
     }
+    #accordionExample{
+        margin: 100px 30px 30px 30px;
+    }
+  
+   .card-text{
+    background-color: black;
+    color: whitesmoke;
+   text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.card-text:hover{
+  color: yellow;
+}
+.toper{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 9px;
+    padding: 7px;
+   margin-left: 600px;
+}
+.toper:hover{
+    background-color: palevioletred;
+    color: black;
+}
+.card{
+    margin-left: 199px;
+}
+
 }
 
 /* vercion tablet para family*/
@@ -590,6 +703,9 @@ a{
 @media screen  and (min-width:1024px){
     .pera{
         background-image: url(../imagenes/fondo.png);
-
+        
     }
+    
+   
+
 }
