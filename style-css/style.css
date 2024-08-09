@@ -183,9 +183,13 @@
 .form-label:hover{
     color: yellowgreen;
 }
-
-
-
+.form-label{
+    color: white;
+}
+.img-cinco{
+    height: 200px;
+   
+}
 
 
 /* ps2 */
@@ -351,7 +355,7 @@ list-style: none;
    background-image: url(../imagenes/fondo-ps4.webp);
 }
 .formulario{
-    background-image: url(../imagenes/fondo-ps4.webp);
+    background-image: url(../imagenes/minecraf-juego.webp);
 }
 
 .tete{
@@ -384,10 +388,6 @@ footer a{
 h2{
     text-align: center;
 }
-
-  
-
-
 
 
 
@@ -436,16 +436,7 @@ a{
     width: 500px;
     height: 200px;
 }
-
-.bell div img{
-    /* width:  es el ancho; */
-     width: 100%;
-     /* height: ;es el alto */
-    height: 100%;
-    /* object-fit: cover;  para que se adapte ala pantalla */
-    }
-
-       
+     
  .accordion-button{
     background-color: black;
     color: whitesmoke;
@@ -455,95 +446,67 @@ a{
     color: whitesmoke;
  }
 
+/* estilos generales mobile  */
  
+ /* estilos de main */
  main .img-dos, main .img-cinco{
-  display: none;
- }main div img{
- /* width:  es el ancho; */
- width: 100%;
- /* height: ;es el alto */
- height: 100%;
- /* object-fit: cover;  para que se adapte ala pantalla */
+    display: none;
  }
- main{
- margin: 0 30px;
- height: 80vh;
-  display: grid;
-  grid-template-rows: 25% 25% 25% ;
- grid-template-columns: 1fr ; 
- align-content: center;
- row-gap: 20px;
- }
+ .bell div img{
+    /* width:  es el ancho; */
+     width: 100%;
+     /* height: ;es el alto */
+    height: 100%;
+    /* object-fit: cover;  para que se adapte ala pantalla */
+    }
  
-/* formulario para mobile */
- @media only screen and (max-width:500px){
-    .formulario{
-        background-image: url(../imagenes/minecraf-juego.webp);
-    }
-    .juana{
-        flex-wrap: wrap;
-        margin-right: 100px;
-    }
-    .bell .img-dos .bell .img-cinco{
-        display: none;
-    }
-    .bell div img{
-        width: 100%;
-        height: 100%;
-    }
-    .bell{
-        margin: 0 30px;
-        height: 80vh;
-        display: grid;
-        grid-template-rows: 25% 25% 25%;
-        grid-template-columns: 1fr;
-        align-content: center;
-        row-gap: 20px;
-    }
-    .pap{
-        text-align: center;
-    }
+ .bell{
+    margin: 0 30px;
+    height: 140vh;
+    display: grid;
+    grid-template-rows: 25% 25% 25% ;
+    grid-template-columns: 1fr ; 
+    align-content: center;
+    row-gap: 20px;
  }
-/* formulario para tablet */
- @media only screen and (min-width:500px) and (max-width:960px){
+ footer{
+    color: whitesmoke;
+    text-align: center;}
+
+ /* mq tablet */
+@media screen and (min-width:768px ) {
+    /* desntro del media querin ponemos los codigos css que queremos modificar */
     .formulario{
         background-image: url(../imagenes/super-mario-bros-fondo.jpg);
     }
     .bell{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 40%);
+        grid-template-columns: repeat(2,1fr) ;
+        grid-template-columns: repeat(2,40%) ;
         column-gap: 20px;
     }
     .bell .img-cuatro{
-      grid-column: span 2;
+        grid-column: span 2;
     }
-
- }
- /* formulario para pc */
- @media only screen and (min-width:961px){
-  
+}
+/* mq desktop */
+@media screen  and (min-width:1024px) {
     .formulario{
         background-image: url(../imagenes/fondo-ps4.webp);
     }
-    .bell .img-dos .bell .img-cinco{
-        grid-row: span 1;
+    .bell .img-dos, main .img-cinco{
+        display: block;
     }
     .bell{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 35% 35% 15%;
-        column-gap: 20px;
+       grid-template-columns: repeat(3, 1fr) ;
+       grid-template-rows: 35% 35% 15% ; 
     }
-    .bell .img.uno .bell .img-tres{
+    .bell .img-uno, .bell .img-tres{
         grid-row: span 2;
     }
-    .bell .img-dos .bell .img-cuatro{
+    .bell .img-dos, .bell .img-cuatro{
         grid-column: span 1;
     }
     .bell .img-cinco{
         grid-column: span 3;
     }
-
- }
-
-
- /* vercion mobile para el index.html */
+}
