@@ -212,6 +212,7 @@
     width: 400px;
     height: 300px;
     margin: 20px;
+    margin-left: 50px;
 
 }
 .uña{
@@ -445,7 +446,8 @@ a{
     background-color: black;
     color: whitesmoke;
  }
-
+   
+/* estilos,mobile,tablet y pc para formulario */
 /* estilos generales mobile  */
  
  /* estilos de main */
@@ -508,5 +510,86 @@ a{
     }
     .bell .img-cinco{
         grid-column: span 3;
+    }
+}
+
+/* vercion mobile,tablet y pc para index.html */
+ /* version mobile para index.html */
+ main .img-dos, main .img-cinco{
+    display: none;
+ }
+ .bell div img{
+    /* width:  es el ancho; */
+     width: 100%;
+     /* height: ;es el alto */
+    height: 100%;
+    /* object-fit: cover;  para que se adapte ala pantalla */
+    }
+ 
+ .bell{
+    margin: 0 30px;
+    height: 140vh;
+    display: grid;
+    grid-template-rows: 25% 25% 25% ;
+    grid-template-columns: 1fr ; 
+    align-content: center;
+    row-gap: 20px;
+ }
+ footer{
+    color: whitesmoke;
+    text-align: center;}
+ /* version para tablet */
+ @media screen and (min-width:768px ) {
+    /* desntro del media querin ponemos los codigos css que queremos modificar */
+    #teclado{
+        background-image: url(../imagenes/fondo.png);
+    }
+    .bell{
+        grid-template-columns: repeat(2,1fr) ;
+        grid-template-columns: repeat(2,40%) ;
+        column-gap: 20px;
+    }
+    .bell .img-cuatro{
+        grid-column: span 2;
+    }
+}
+/* mq desktop */
+@media screen  and (min-width:1024px) {
+    #teclado{
+        background-image: url(../imagenes/fondo.png);
+    }
+    .bell .img-dos, main .img-cinco{
+        display: block;
+    }
+    .bell{
+       grid-template-columns: repeat(3, 1fr) ;
+       grid-template-rows: 35% 35% 15% ; 
+    }
+    .bell .img-uno, .bell .img-tres{
+        grid-row: span 2;
+    }
+    .bell .img-dos, .bell .img-cuatro{
+        grid-column: span 1;
+    }
+    .bell .img-cinco{
+        grid-column: span 3;
+    }
+}
+
+/* vercion tablet para family*/
+@media screen and (min-width:768px ){
+    .pera{
+        background-image: url(../imagenes/minecraf-juego.webp);
+    }
+    .pao{
+        margin-left: 100px;
+        width: 80%;
+    }
+}
+/* mq desktop */
+@media screen  and (min-width:1024px){
+    .pera{
+        background-image: url(../imagenes/fondo.png);
+
     }
 }
