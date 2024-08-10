@@ -741,9 +741,65 @@ a{
 
     }
 }
+/* version pc para ps2 */
 @media screen  and (min-width:1024px){
     .ps2{
         background-image: url(../imagenes/super-mario-bros-fondo.jpg);
+    }
+    .bell .img-dos, main .img-cinco{
+        display: block;
+    }
+    .bell{
+       grid-template-columns: repeat(3, 1fr) ;
+       grid-template-rows: 35% 35% 15% ; 
+       height: 150vh;
+    }
+    .bell .img-uno, .bell .img-tres{
+        grid-row: span 2;
+    }
+    .bell .img-dos, .bell .img-cuatro{
+        grid-column: span 1;
+    }
+    .bell .img-cinco{
+        grid-column: span 3;
+    }
+    #accordionExample{
+        margin: 100px 30px 30px 30px;
+    }
+}
+/* version tablet y pc para sega */
+/* version para tablet */
+@media screen and (min-width:768px ){
+    #mouse{
+        background-image: url(../imagenes/aaron.jpg);
+
+    }
+    .bell{
+        grid-template-columns: repeat(2,1fr) ;
+        grid-template-columns: repeat(2,40%) ;
+        /* column-gap: 20px; */
+        margin: 0px 30px;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 25% 25% 25% ;
+        grid-template-columns: 1fr ; 
+        align-content: center;
+        row-gap: 20px;
+    }
+    .bell .img-cuatro{
+        grid-column: span 2;
+        height: 400px;
+    }
+    .bell .img-uno{
+        grid-column: span 1;
+        width: 430px;
+
+    }
+}
+/* version pc para ps2 */
+@media screen  and (min-width:1024px){
+    #mouse{
+        background-image: url(../imagenes/fondo-ps3.jpg);
     }
     .bell .img-dos, main .img-cinco{
         display: block;
