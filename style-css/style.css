@@ -1,824 +1,814 @@
-/* index.html */
-#teclado{
-    margin: 0%;
+@charset "UTF-8";
+.manteca {
+  display: flex;
+  flex-direction: row;
+  min-height: 70px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.barco{
-    color: white;
-    border-radius: 5px;
-    padding: 3px;
-    margin: 20px;
-    background-color: black;
-    align-items: center;    
-    text-decoration: none;
+.manteca .mate {
+  width: 200px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 10px;
 }
-.manteca{
-    display: flex;
-    flex-direction: row;
-    min-height: 70px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.manteca .juana {
+  margin-top: 20px;
+  width: 50%;
 }
+.manteca .barco {
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 20px;
+  background-color: black;
+  align-items: center;
+  text-decoration: none;
+}
+
+.bell {
+  margin: 0 30px;
+  height: 70vh;
+  display: grid;
+  grid-template-rows: 25% 25% 25%;
+  grid-template-columns: 1fr;
+  align-content: center;
+  row-gap: 20px;
+  /* estilos de main */
+}
+.bell .bell div img {
+  /* width:  es el ancho; */
+  width: 100%;
+  /* height: ;es el alto */
+  height: 100%;
+  /* object-fit: cover;  para que se adapte ala pantalla */
+}
+.bell main .img-dos, .bell main .img-cinco {
+  display: none;
+}
+
+.toper {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 9px;
+  padding: 7px;
+  margin-left: 199px;
+}
+.toper:hover {
+  background-color: palevioletred;
+  color: black;
+}
+
+.hierro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hierro .duran {
+  width: 50%;
+}
+.hierro .duran ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bay {
+  background-color: black;
+  text-align: center;
+}
+.bay:hover {
+  background-color: black;
+}
+
 /* acordion juegos */
-.card-text{
-    background-color: black;
-    color: whitesmoke;
-   text-align: center;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 15px;
+.card-text {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
 }
-.card-text:hover{
+
+.card-text:hover {
   color: yellow;
 }
-.toper{
-    background-color: black;
-    color: whitesmoke;
-    border-radius: 9px;
-    padding: 7px;
-   margin-left: 199px;
-}
-.toper:hover{
-    background-color: palevioletred;
-    color: black;
-}
-.mate{
-   width: 200px;
-   height: 60px;
-   margin: 10px;
-   border-radius: 10px;
-}
-.juana{
-    margin-top: 20px;
-    width: 50%;
-}
-.manteca .ferrere{
-    display: flex;
 
-    justify-content: space-between;
-}
-.manteca li{
-    list-style: none;
-}
-.hierro{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-    
-}
-.duran{
-    width: 50%;
-}
-.duran ul{
-    display: flex;
-    justify-content: space-between;
-}
-.barci{
-    color: white;
-    border-radius: 3px;
-    padding: 2px;
-    margin: 10px;
-    align-items: center;
-    background-color: black;
+.manteca .ferrere {
+  display: flex;
+  justify-content: space-between;
 }
 
-.barci:hover{
-    background-color: black;
-    color: yellow;
+.manteca li {
+  list-style: none;
 }
-.oka{
-    display: flex;
-    flex-direction: row;  
+
+.barci {
+  color: white;
+  border-radius: 3px;
+  padding: 2px;
+  margin: 10px;
+  align-items: center;
+  background-color: black;
 }
-.noni{
-    background-color: black;
-    color: whitesmoke;
-    display: flex;
-    display: block;
-    padding: 10px;
-    margin-bottom: 30px;
+.barci:hover {
+  background-color: black;
+  color: yellow;
 }
-.noni:hover{
-    color: yellow;
+
+.oka {
+  display: flex;
+  flex-direction: row;
 }
-.tuto{
-    background-color: black;
-    color: whitesmoke;
-    display: flex;
-    display: block;
-    margin: 20px;
-    padding: 10px;
-    border-radius: 15px;
+
+.noni {
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  display: block;
+  padding: 10px;
+  margin-bottom: 30px;
 }
-.tuto:hover{
-    color: yellow;
+.noni:hover {
+  color: yellow;
 }
-.pantalla{
-    text-align: center;
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    background-color: rgb(0, 0, 0); 
-    display: inline-block;
+
+.tuto {
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
 }
-.pantalla:hover{
-    background-color: black;
-    color: yellow;
+.tuto:hover {
+  color: yellow;
+}
+
+.pantalla {
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  padding: 9px;
+  background-color: rgb(0, 0, 0);
+  display: inline-block;
+}
+.pantalla:hover {
+  background-color: black;
+  color: yellow;
 }
 
 /* family.html */
 /* el header tiene las mismas clases todos */
-
-
-.jaja{
-    text-align: center;
-    background-color: black;
-    border-radius: 3px;
-    color: white;
-    padding: 9px;
-    margin: 15px;
+.jaja {
+  text-align: center;
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+  padding: 9px;
+  margin: 15px;
 }
-.jaja:hover{
-    background-color: rgb(219, 69, 219);
-    color: whitesmoke;
+.jaja:hover {
+  background-color: rgb(219, 69, 219);
+  color: whitesmoke;
 }
 
-.barca{
-    background-color: black;
-    color: whitesmoke;
-    border-radius: 3px;
-    padding: 2px;
-    margin: 5px;
-    text-decoration: none;
-   
+.barca {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 3px;
+  padding: 2px;
+  margin: 5px;
+  text-decoration: none;
 }
-.barca:hover{
-    background-color: rgb(219, 69, 219);
-    color: white; 
-}
-.kag{
-    display: flex;
-    flex-direction: row;
-    
-}
-
-
-
-
-
-
-
-/* formulario.html */
-.lara{
-    color: white;
-    border-radius: 5px;
-    padding: 3px;
-    margin: 20px;
-    background-color: black;
-    align-items: center; 
-}
-.lara:hover{
-    background-color: black;
-    color: yellow;
-}
-.pap{
-    text-align: center;
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    background-color: black; 
-}
-.loli{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: black;
-}
-.loli:hover{
-    background-color: black;
-    color: yellow;
-}
-
-.form-label{
-    color: black;
-    font-weight: 500;
-}
-.form-label:hover{
-    color: yellowgreen;
-}
-.form-label{
-    color: white;
-}
-.img-cinco{
-    height: 200px;
-   
-}
-
-
-/* ps2 */
-
-
-.gaga{
- 
-    text-align: center; 
-}
-.rouser{
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-.rouser:hover{
-    background-color: violet;
-    color: black;
-}
-.pao{
-    width: 400px;
-    height: 300px;
-    margin: 20px;
-    margin-left: 50px;
-
-}
-.uña{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: black;
-    text-align: center;
-}
-.uña:hover{
-    background-color: violet;
-    color: black;
-}
-.station{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: black;
-    text-align: center;
-}
-
-.station:hover{
-    background-color: violet;
-    color: black;
-}
-.tere{
-    color: white;
-    border-radius: 3px;
-    padding: 2px;
-    margin: 10px;
-    background-color: black;
-    text-align: center;
-}
-.ajo{
-
-display: flex;
-justify-content: space-evenly;
-list-style: none;
-}
-
-.tere:hover{
-    background-color: violet;
-    color: black;
-}
-
-.tutorial{
-    margin: 20px;
-     text-align: center;
-     display: flex;
-     justify-content: space-evenly;
- }
-
- .logo-ps2{
-    width: 140px;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 5px;
-
-}
-
-
-
-/* sega */
-
-.leña{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.savin-me{
-    margin-top: 20px;
-    width: 50%;
-
-}
-
-.pc{
-    color: white;
-    border-radius: 5px;
-    padding: 3px;
-    margin: 20px;
-    background-color: black;
-    align-items: center;   
-}
-
-.pc:hover{
-    background-color: violet;
-    color: whitesmoke;
-}
-.sub{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: black;
-}
-
-.sub:hover{
-    background-color: violet;
-    color: white;
-}
-.lolo{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: black;
-}
-.lolo:hover{
-    background-color: violet;
-    color: whitesmoke;
-}
-.papa{
-    text-align: center;
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    background-color: black; 
-}
-.papa:hover{
-    background-color: violet;
-    color: whitesmoke;
-}
-
-
-    
-
-/* body de mis html */
-
-#teclado{
-    background-image: url(../imagenes/fondo.png);
-}
-#mouse{
-    background-image: url(../imagenes/fondo-sega2.jpg);   
-}
-.pera{
-    background-image: url(../imagenes/fondo.png);
-}
-.ps2{
-   background-image: url(../imagenes/fondo-ps4.webp);
-}
-.formulario{
-    background-image: url(../imagenes/minecraf-juego.webp);
-}
-
-.tete{
-    background-color: blueviolet;
-}
-.barco:hover{
-    color: yellow;
-}
-.cinta{
-    list-style: none;
-    color: blueviolet;
-}
-h1{
-    text-align: center;
-}
-main nav ul{
-    list-style: none;
-}
-nav ol{
-    list-style: none;
-}
-footer a{
-    color: white;
-}
-
-
-
-
-
-h2{
-    text-align: center;
-}
-
-
-
-.card-text{
+.barca:hover {
+  background-color: rgb(219, 69, 219);
   color: white;
 }
 
-ol li{
-    display: flex;
-    display: inline-block;
-}
-.ser{
-    color: white;
-    background-color: maroon;
-    display: flex;
+.kag {
+  display: flex;
+  flex-direction: row;
 }
 
-
-
-a{
-    text-decoration: none;
+/* formulario.html */
+.lara {
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 20px;
+  background-color: black;
+  align-items: center;
 }
+.lara:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.pap {
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  padding: 9px;
+  background-color: black;
+}
+
+.loli {
+  color: white;
+  border-radius: 3px;
+  padding: 9px;
+  margin: 30px;
+  background-color: black;
+}
+.loli:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.form-label {
+  color: black;
+  font-weight: 500;
+}
+.form-label:hover {
+  color: yellowgreen;
+}
+
+.form-label {
+  color: white;
+}
+
+.img-cinco {
+  height: 200px;
+}
+
+/* ps2 */
+.gaga {
+  text-align: center;
+}
+
+.rouser {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+.rouser:hover {
+  background-color: violet;
+  color: black;
+}
+
+.pao {
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.uña {
+  color: white;
+  border-radius: 3px;
+  padding: 9px;
+  margin: 30px;
+  background-color: black;
+  text-align: center;
+}
+.uña:hover {
+  background-color: violet;
+  color: black;
+}
+
+.station {
+  color: white;
+  border-radius: 3px;
+  padding: 9px;
+  margin: 30px;
+  background-color: black;
+  text-align: center;
+}
+.station:hover {
+  background-color: violet;
+  color: black;
+}
+
+.tere {
+  color: white;
+  border-radius: 3px;
+  padding: 2px;
+  margin: 10px;
+  background-color: black;
+  text-align: center;
+}
+.tere:hover {
+  background-color: violet;
+  color: black;
+}
+
+.ajo {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.tutorial {
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo-ps2 {
+  width: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+/* sega */
+.leña {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.savin-me {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.pc {
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 20px;
+  background-color: black;
+  align-items: center;
+}
+.pc:hover {
+  background-color: violet;
+  color: whitesmoke;
+}
+
+.sub {
+  color: white;
+  border-radius: 3px;
+  padding: 9px;
+  margin: 30px;
+  background-color: black;
+}
+.sub:hover {
+  background-color: violet;
+  color: white;
+}
+
+.lolo {
+  color: white;
+  border-radius: 3px;
+  padding: 9px;
+  margin: 30px;
+  background-color: black;
+}
+.lolo:hover {
+  background-color: violet;
+  color: whitesmoke;
+}
+
+.papa {
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+  padding: 9px;
+  background-color: black;
+}
+.papa:hover {
+  background-color: violet;
+  color: whitesmoke;
+}
+
+/* body de mis html */
+#teclado {
+  background-image: url(../imagenes/fondo.png);
+}
+
+#mouse {
+  background-image: url(../imagenes/fondo-sega2.jpg);
+}
+
+.pera {
+  background-image: url(../imagenes/fondo.png);
+}
+
+.ps2 {
+  background-image: url(../imagenes/fondo-ps4.webp);
+}
+
+.formulario {
+  background-image: url(../imagenes/minecraf-juego.webp);
+}
+
+.tete {
+  background-color: blueviolet;
+}
+
+.barco:hover {
+  color: yellow;
+}
+
+.cinta {
+  list-style: none;
+  color: blueviolet;
+}
+
+h1 {
+  text-align: center;
+}
+
+main nav ul {
+  list-style: none;
+}
+
+nav ol {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+.card-text {
+  color: white;
+}
+
+ol li {
+  display: flex;
+  display: inline-block;
+}
+
+.ser {
+  color: white;
+  background-color: maroon;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* footer */
-.bay{
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    
+.bay {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
 }
-.bay:hover{
-    background-color: black;
+.bay:hover {
+  background-color: black;
 }
 
 /* carrousel */
-.slide{
-    margin-top: 10px;
-}
-.slide img{
-    height: 65vh;
+.slide {
+  margin-top: 10px;
 }
 
-.card{
-    display: flex;
-    display: inline;
+.slide img {
+  height: 65vh;
 }
-.card-img-top{
-    width: 500px;
-    height: 200px;
+
+.card {
+  display: flex;
+  display: inline;
 }
-     
- .accordion-button{
-    background-color: black;
-    color: whitesmoke;
- }
- .accordion-item{
-    background-color: black;
-    color: whitesmoke;
- }
-   
+
+.card-img-top {
+  width: 500px;
+  height: 200px;
+}
+
+.accordion-button {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.accordion-item {
+  background-color: black;
+  color: whitesmoke;
+}
+
 /* estilos,mobile,tablet y pc para formulario */
 /* estilos generales mobile  */
- 
- /* estilos de main */
- main .img-dos, main .img-cinco{
-    display: none;
- }
- .bell div img{
-    /* width:  es el ancho; */
-     width: 100%;
-     /* height: ;es el alto */
-    height: 100%;
-    /* object-fit: cover;  para que se adapte ala pantalla */
-    }
- 
- .bell{
-    margin: 0 30px;
+footer {
+  color: whitesmoke;
+  text-align: center;
+}
+
+/* mq tablet */
+@media screen and (min-width: 768px) {
+  /* desntro del media querin ponemos los codigos css que queremos modificar */
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+  .formulario {
+    background-image: url(../imagenes/super-mario-bros-fondo.jpg);
+  }
+  .bell {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 40%);
+    height: 150vh;
+    column-gap: 20px;
+  }
+  .bell .img-cuatro {
+    grid-column: span 2;
+  }
+}
+/* mq desktop */
+@media screen and (min-width: 1024px) {
+  .formulario {
+    background-image: url(../imagenes/fondo-ps4.webp);
+  }
+  .bell .img-dos, main .img-cinco {
+    display: block;
+  }
+  .bell {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 35% 35% 15%;
+  }
+  .bell .img-uno, .bell .img-tres {
+    grid-row: span 2;
+  }
+  .bell .img-dos, .bell .img-cuatro {
+    grid-column: span 1;
+  }
+  .bell .img-cinco {
+    grid-column: span 3;
+  }
+}
+/* vercion mobile,tablet y pc para index.html */
+/* version mobile para index.html */
+.toper {
+  margin-right: 70px;
+}
+
+main .img-dos, main .img-cinco {
+  display: none;
+}
+
+.bell div img {
+  /* width:  es el ancho; */
+  width: 100%;
+  /* height: ;es el alto */
+  height: 100%;
+  /* object-fit: cover;  para que se adapte ala pantalla */
+}
+
+.bell {
+  margin: 0px 30px;
+  height: 150vh;
+  display: grid;
+  grid-template-rows: 25% 25% 25%;
+  grid-template-columns: 1fr;
+  align-content: center;
+  row-gap: 20px;
+}
+
+footer {
+  color: whitesmoke;
+  text-align: center;
+}
+
+/* version para tablet */
+@media screen and (min-width: 768px) {
+  /* desntro del media querin ponemos los codigos css que queremos modificar */
+  #teclado {
+    background-image: url(../imagenes/fondo-ps4.webp);
+  }
+  .bell {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 40%);
+    /* column-gap: 20px; */
+    margin: 0px 30px;
     height: 70vh;
     display: grid;
-    grid-template-rows: 25% 25% 25% ;
-    grid-template-columns: 1fr ; 
+    grid-template-rows: 25% 25% 25%;
+    grid-template-columns: 1fr;
     align-content: center;
     row-gap: 20px;
- }
- footer{
-    color: whitesmoke;
-    text-align: center;}
-
- /* mq tablet */
-@media screen and (min-width:768px ) {
-    /* desntro del media querin ponemos los codigos css que queremos modificar */
-    *{
-        margin: 0%;
-        padding: 0%;
-    }
-    .formulario{
-        background-image: url(../imagenes/super-mario-bros-fondo.jpg);
-    }
-    
-    .bell{
-        grid-template-columns: repeat(2,1fr) ;
-        grid-template-columns: repeat(2,40%) ;
-        height: 150vh;
-
-        column-gap: 20px;
-    }
-    .bell .img-cuatro{
-        grid-column: span 2;
-    }
-}
-/* mq desktop */
-@media screen  and (min-width:1024px) {
-    .formulario{
-        background-image: url(../imagenes/fondo-ps4.webp);
-    }
-    .bell .img-dos, main .img-cinco{
-        display: block;
-    }
-    .bell{
-       grid-template-columns: repeat(3, 1fr) ;
-       grid-template-rows: 35% 35% 15% ; 
-    }
-    .bell .img-uno, .bell .img-tres{
-        grid-row: span 2;
-    }
-    .bell .img-dos, .bell .img-cuatro{
-        grid-column: span 1;
-    }
-    .bell .img-cinco{
-        grid-column: span 3;
-    }
-}
-
-/* vercion mobile,tablet y pc para index.html */
- /* version mobile para index.html */
- .toper{
-    margin-right: 70px;
- }
- main .img-dos, main .img-cinco{
-    display: none;
- }
- .bell div img{
-    /* width:  es el ancho; */
-     width: 100%;
-     /* height: ;es el alto */
-    height: 100%;
-    /* object-fit: cover;  para que se adapte ala pantalla */
-    }
- 
- .bell{
-    margin: 0px 30px;
-    height: 150vh;
-    display: grid;
-    grid-template-rows: 25% 25% 25% ;
-    grid-template-columns: 1fr ; 
-    align-content: center;
-    row-gap: 20px;
- }
- footer{
-    color: whitesmoke;
-    text-align: center;}
- /* version para tablet */
- @media screen and (min-width:768px ) {
-    /* desntro del media querin ponemos los codigos css que queremos modificar */
-    #teclado{
-        background-image: url(../imagenes/fondo-ps4.webp);
-    }
-    .bell{
-        grid-template-columns: repeat(2,1fr) ;
-        grid-template-columns: repeat(2,40%) ;
-        /* column-gap: 20px; */
-        margin: 0px 30px;
-        height: 70vh;
-        display: grid;
-        grid-template-rows: 25% 25% 25% ;
-        grid-template-columns: 1fr ; 
-        align-content: center;
-        row-gap: 20px;
-    }
-    .bell .img-cuatro{
-        grid-column: span 2;
-        height: 400px;
-    }
-    .bell .img-uno{
-        grid-column: span 1;
-        width: 430px;
-
-    }
-    .card-img-top{
-        width: 800px;
-        height: 300px;
-        border-radius: 1%;
-        
-        
-    }
-   
-    .card{
-        margin-left: 20px;
-       }
-       /* #accordionExample{
-        margin: 0% 30px 30px 30px;
-    } */
-    .card-text{
-        background-color: black;
-        color: whitesmoke;
-       text-align: center;
-        margin: 20px;
-        padding: 10px;
-        border-radius: 15px;
-    }
-    .card-text:hover{
-      color: yellow;
-    }
-    .toper{
-        background-color: black;
-        color: whitesmoke;
-        border-radius: 9px;
-        padding: 7px;
-       margin-left: 300px;
-    }
-    .toper:hover{
-        background-color: palevioletred;
-        color: black;
-    }
-    
-    
-}
-/* mq desktop */
-@media screen  and (min-width:1024px) {
-    #teclado{
-        background-image: url(../imagenes/fondo.png);
-    }
-    .bell .img-dos, main .img-cinco{
-        display: block;
-    }
-    .bell{
-       grid-template-columns: repeat(3, 1fr) ;
-       grid-template-rows: 35% 35% 15% ; 
-       height: 150vh;
-    }
-    .bell .img-uno, .bell .img-tres{
-        grid-row: span 2;
-    }
-    .bell .img-dos, .bell .img-cuatro{
-        grid-column: span 1;
-    }
-    .bell .img-cinco{
-        grid-column: span 3;
-    }
-    #accordionExample{
-        margin: 100px 30px 30px 30px;
-    }
-  
-   .card-text{
+  }
+  .bell .img-cuatro {
+    grid-column: span 2;
+    height: 400px;
+  }
+  .bell .img-uno {
+    grid-column: span 1;
+    width: 430px;
+  }
+  .card-img-top {
+    width: 800px;
+    height: 300px;
+    border-radius: 1%;
+  }
+  .card {
+    margin-left: 20px;
+  }
+  /* #accordionExample{
+      margin: 0% 30px 30px 30px;
+  } */
+  .card-text {
     background-color: black;
     color: whitesmoke;
-   text-align: center;
+    text-align: center;
     margin: 20px;
     padding: 10px;
     border-radius: 15px;
-}
-.card-text:hover{
-  color: yellow;
-}
-.toper{
+  }
+  .card-text:hover {
+    color: yellow;
+  }
+  .toper {
     background-color: black;
     color: whitesmoke;
     border-radius: 9px;
     padding: 7px;
-   margin-left: 600px;
-}
-.toper:hover{
+    margin-left: 300px;
+  }
+  .toper:hover {
     background-color: palevioletred;
     color: black;
-}
-.card{
-    margin-left: 199px;
-}
-
-}
-
-/* vercion tablet para family*/
-@media screen and (min-width:768px ){
-    .pera{
-        background-image: url(../imagenes/minecraf-juego.webp);
-    }
-    .pao{
-        margin-left: 100px;
-        width: 80%;
-    }
+  }
 }
 /* mq desktop */
-@media screen  and (min-width:1024px){
-    .pera{
-        background-image: url(../imagenes/fondo.png);
-        
-    }
-    
-   
-
+@media screen and (min-width: 1024px) {
+  #teclado {
+    background-image: url(../imagenes/fondo.png);
+  }
+  .bell .img-dos, main .img-cinco {
+    display: block;
+  }
+  .bell {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 35% 35% 15%;
+    height: 150vh;
+  }
+  .bell .img-uno, .bell .img-tres {
+    grid-row: span 2;
+  }
+  .bell .img-dos, .bell .img-cuatro {
+    grid-column: span 1;
+  }
+  .bell .img-cinco {
+    grid-column: span 3;
+  }
+  #accordionExample {
+    margin: 100px 30px 30px 30px;
+  }
+  .card-text {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  .card-text:hover {
+    color: yellow;
+  }
+  .toper {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 9px;
+    padding: 7px;
+    margin-left: 600px;
+  }
+  .toper:hover {
+    background-color: palevioletred;
+    color: black;
+  }
+  .card {
+    margin-left: 199px;
+  }
+}
+/* vercion tablet para family*/
+@media screen and (min-width: 768px) {
+  .pera {
+    background-image: url(../imagenes/minecraf-juego.webp);
+  }
+  .pao {
+    margin-left: 100px;
+    width: 80%;
+  }
+}
+/* mq desktop */
+@media screen and (min-width: 1024px) {
+  .pera {
+    background-image: url(../imagenes/fondo.png);
+  }
 }
 /* version tablet y pc para ps2 */
 /* version para tablet */
-@media screen and (min-width:768px ){
-    .ps2{
-        background-image: url(../imagenes/fondo.png);
-
-    }
-    .bell{
-        grid-template-columns: repeat(2,1fr) ;
-        grid-template-columns: repeat(2,40%) ;
-        /* column-gap: 20px; */
-        margin: 0px 30px;
-        height: 100vh;
-        display: grid;
-        grid-template-rows: 25% 25% 25% ;
-        grid-template-columns: 1fr ; 
-        align-content: center;
-        row-gap: 20px;
-    }
-    .bell .img-cuatro{
-        grid-column: span 2;
-        height: 400px;
-    }
-    .bell .img-uno{
-        grid-column: span 1;
-        width: 430px;
-
-    }
+@media screen and (min-width: 768px) {
+  .ps2 {
+    background-image: url(../imagenes/fondo.png);
+  }
+  .bell {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 40%);
+    /* column-gap: 20px; */
+    margin: 0px 30px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 25% 25% 25%;
+    grid-template-columns: 1fr;
+    align-content: center;
+    row-gap: 20px;
+  }
+  .bell .img-cuatro {
+    grid-column: span 2;
+    height: 400px;
+  }
+  .bell .img-uno {
+    grid-column: span 1;
+    width: 430px;
+  }
 }
 /* version pc para ps2 */
-@media screen  and (min-width:1024px){
-    .ps2{
-        background-image: url(../imagenes/super-mario-bros-fondo.jpg);
-    }
-    .bell .img-dos, main .img-cinco{
-        display: block;
-    }
-    .bell{
-       grid-template-columns: repeat(3, 1fr) ;
-       grid-template-rows: 35% 35% 15% ; 
-       height: 150vh;
-    }
-    .bell .img-uno, .bell .img-tres{
-        grid-row: span 2;
-    }
-    .bell .img-dos, .bell .img-cuatro{
-        grid-column: span 1;
-    }
-    .bell .img-cinco{
-        grid-column: span 3;
-    }
-    #accordionExample{
-        margin: 100px 30px 30px 30px;
-    }
+@media screen and (min-width: 1024px) {
+  .ps2 {
+    background-image: url(../imagenes/super-mario-bros-fondo.jpg);
+  }
+  .bell .img-dos, main .img-cinco {
+    display: block;
+  }
+  .bell {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 35% 35% 15%;
+    height: 150vh;
+  }
+  .bell .img-uno, .bell .img-tres {
+    grid-row: span 2;
+  }
+  .bell .img-dos, .bell .img-cuatro {
+    grid-column: span 1;
+  }
+  .bell .img-cinco {
+    grid-column: span 3;
+  }
+  #accordionExample {
+    margin: 100px 30px 30px 30px;
+  }
 }
 /* version tablet y pc para sega */
 /* version para tablet */
-@media screen and (min-width:768px ){
-    #mouse{
-        background-image: url(../imagenes/aaron.jpg);
-
-    }
-    .bell{
-        grid-template-columns: repeat(2,1fr) ;
-        grid-template-columns: repeat(2,40%) ;
-        /* column-gap: 20px; */
-        margin: 0px 30px;
-        height: 100vh;
-        display: grid;
-        grid-template-rows: 25% 25% 25% ;
-        grid-template-columns: 1fr ; 
-        align-content: center;
-        row-gap: 20px;
-    }
-    .bell .img-cuatro{
-        grid-column: span 2;
-        height: 400px;
-    }
-    .bell .img-uno{
-        grid-column: span 1;
-        width: 430px;
-
-    }
+@media screen and (min-width: 768px) {
+  #mouse {
+    background-image: url(../imagenes/aaron.jpg);
+  }
+  .bell {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 40%);
+    /* column-gap: 20px; */
+    margin: 0px 30px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 25% 25% 25%;
+    grid-template-columns: 1fr;
+    align-content: center;
+    row-gap: 20px;
+  }
+  .bell .img-cuatro {
+    grid-column: span 2;
+    height: 400px;
+  }
+  .bell .img-uno {
+    grid-column: span 1;
+    width: 430px;
+  }
 }
 /* version pc para ps2 */
-@media screen  and (min-width:1024px){
-    #mouse{
-        background-image: url(../imagenes/fondo-ps3.jpg);
-    }
-    .bell .img-dos, main .img-cinco{
-        display: block;
-    }
-    .bell{
-       grid-template-columns: repeat(3, 1fr) ;
-       grid-template-rows: 35% 35% 15% ; 
-       height: 150vh;
-    }
-    .bell .img-uno, .bell .img-tres{
-        grid-row: span 2;
-    }
-    .bell .img-dos, .bell .img-cuatro{
-        grid-column: span 1;
-    }
-    .bell .img-cinco{
-        grid-column: span 3;
-    }
-    #accordionExample{
-        margin: 100px 30px 30px 30px;
-    }
+@media screen and (min-width: 1024px) {
+  #mouse {
+    background-image: url(../imagenes/fondo-ps3.jpg);
+  }
+  .bell .img-dos, main .img-cinco {
+    display: block;
+  }
+  .bell {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 35% 35% 15%;
+    height: 150vh;
+  }
+  .bell .img-uno, .bell .img-tres {
+    grid-row: span 2;
+  }
+  .bell .img-dos, .bell .img-cuatro {
+    grid-column: span 1;
+  }
+  .bell .img-cinco {
+    grid-column: span 3;
+  }
+  #accordionExample {
+    margin: 100px 30px 30px 30px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */
