@@ -260,12 +260,15 @@ h6{
     }
 }
 
-.pao{
+.pao {
     @include medidas(400px,300px, white);
-    margin: 20px;
-    margin-left: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
 
 }
+
 .una{
     color: white;
     border-radius: 3px;
@@ -394,18 +397,23 @@ list-style: none;
 
 #teclado{
     background-image: url(../imagenes/fondo.png);
+    overflow-x: hidden;
 }
 #mouse{
-    background-image: url(../imagenes/fondo-sega2.jpg);   
+    background-image: url(../imagenes/fondo-sega2.jpg);  
+    overflow-x: hidden; 
 }
 .ps5{
     background-image: url(../imagenes/fondo.png);
+    overflow-x: hidden;
 }
 .ps2{
    background-image: url(../imagenes/fondo-ps4.webp);
+   overflow-x: hidden;
 }
 .formulario{
     background-image: url(../imagenes/minecraf-juego.webp);
+    overflow-x: hidden;
 }
 
 .tete{

@@ -276,8 +276,10 @@ h6 {
   width: 400px;
   height: 300px;
   color: white;
-  margin: 20px;
-  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .una {
@@ -392,22 +394,27 @@ h6 {
 /* body de mis html */
 #teclado {
   background-image: url(../imagenes/fondo.png);
+  overflow-x: hidden;
 }
 
 #mouse {
   background-image: url(../imagenes/fondo-sega2.jpg);
+  overflow-x: hidden;
 }
 
 .ps5 {
   background-image: url(../imagenes/fondo.png);
+  overflow-x: hidden;
 }
 
 .ps2 {
   background-image: url(../imagenes/fondo-ps4.webp);
+  overflow-x: hidden;
 }
 
 .formulario {
   background-image: url(../imagenes/minecraf-juego.webp);
+  overflow-x: hidden;
 }
 
 .tete {
