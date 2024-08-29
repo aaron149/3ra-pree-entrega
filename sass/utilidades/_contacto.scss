@@ -1,0 +1,29 @@
+.pap{
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    background-color: $color-principal; 
+}
+.loli{
+    color: white;
+    border-radius: 3px;
+    padding: 9px;
+    margin: 30px;
+    background-color: $color-principal;
+
+    &:hover{
+        background-color: black;
+        color: yellow;
+    }
+}
+
+
+.form-label{
+    color: black;
+    font-weight: 500;
+
+    &:hover{
+        color: yellowgreen;
+    }
+}

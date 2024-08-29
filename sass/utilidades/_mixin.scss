@@ -1,0 +1,13 @@
+// mixin con parametros
+@mixin medidas($width, $heigh, $color){
+    width: $width ;
+    height: $heigh ;
+    color: $color;
+}
+// sin parametros
+@mixin flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

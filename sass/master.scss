@@ -1,26 +1,26 @@
 @import "utilidades/variables";
+@import "utilidades/contacto";
 @import "utilidades/listas";
+@import "utilidades/mixin";
+@import "utilidades/extend";
 // nesting
-.manteca{
-    display: flex;
-    flex-direction: row;
+.dual{
+    @include flex;
     min-height: 70px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    
-    .mate{
-        width: 200px;
-        height: 60px;
-        margin: 10px;
+    .juguemos{
+        width: 80px;
+        height: 70px;
         border-radius: 10px;
+        margin-left: 10px;
+        background-color: black;
+        @include medidas(80px,70px,whitesmoke);
      }
      .juana{
-        margin-top: 20px;
-        width: 50%;
+       @extend %bordes;
     }
 
     .barco{
-        color: white;
+        color: nth($listas-colores, 1 );
         border-radius: 5px;
         padding: 3px;
         margin: 20px;
@@ -52,7 +52,7 @@
  }
  .toper{
     background-color: $color-principal;
-    color: whitesmoke;
+    color: nth($listas-colores, 1 );
     border-radius: 9px;
     padding: 7px;
    margin-left: 199px;
@@ -89,8 +89,8 @@
 /* acordion juegos */
 .card-text{
     background-color: $color-principal;
-    color: whitesmoke;
-   text-align: center;
+    color: nth($listas-colores, 1 );
+    text-align: center;
     margin: 20px;
     padding: 10px;
     border-radius: 15px;
@@ -99,21 +99,20 @@
   color: $color-secundario;
 }
 
-.manteca .ferrere{
+.dual .ferrere{
     display: flex;
 
     justify-content: space-between;   
 }
-.manteca li{
+.dual li{
     list-style: none;
 }
-
-
-
-
+h6{
+    text-align: center;
+}
 
 .barci{
-    color: white;
+    color: nth($listas-colores, 1 );
     border-radius: 3px;
     padding: 2px;
     margin: 10px;
@@ -133,11 +132,11 @@
 }
 .noni{
     background-color: $color-principal;
-    color: whitesmoke;
     display: flex;
     display: block;
     padding: 10px;
     margin-bottom: 30px;
+    color: nth($listas-colores, 1 );
     
     &:hover{
         color: $color-secundario
@@ -146,7 +145,7 @@
 
 .tuto{
     background-color: $color-principal;
-    color: whitesmoke;
+    color: nth($listas-colores, 1 );
     display: flex;
     display: block;
     margin: 20px;
@@ -157,10 +156,15 @@
         color: $color-secundario;
     }
 }
+.zombie{
+    width:480px;
+    margin-left: 5px;
+}
+
 
 .pantalla{
     text-align: center;
-    color: white;
+    color: nth($listas-colores, 1 );
     border-radius: 3px;
     padding: 9px;
     background-color: rgb(0, 0, 0); 
@@ -181,20 +185,20 @@
     text-align: center;
     background-color: $color-principal;
     border-radius: 3px;
-    color: white;
+    color: nth($listas-colores, 1 );
     padding: 9px;
     margin: 15px;
 
     &:hover{
         background-color: rgb(219, 69, 219);
-        color: whitesmoke;
+        color: nth($listas-colores, 1 );
     }
 }
 
 
 .barca{
     background-color: $color-principal;
-    color: whitesmoke;
+    color: nth($listas-colores, 1 );
     border-radius: 3px;
     padding: 2px;
     margin: 5px;
@@ -214,7 +218,7 @@
 
 /* formulario.html */
 .lara{
-    color: white;
+    color: nth($listas-colores, 1 );
     border-radius: 5px;
     padding: 3px;
     margin: 20px;
@@ -227,38 +231,10 @@
     }
 }
 
-.pap{
-    text-align: center;
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    background-color: $color-principal; 
-}
-.loli{
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    margin: 30px;
-    background-color: $color-principal;
-
-    &:hover{
-        background-color: black;
-        color: yellow;
-    }
-}
 
 
 .form-label{
-    color: black;
-    font-weight: 500;
-
-    &:hover{
-        color: yellowgreen;
-    }
-}
-
-.form-label{
-    color: white;
+    color: nth($listas-colores, 1 );
 }
 .img-cinco{
     height: 200px;
@@ -275,23 +251,22 @@
 }
 .rouser{
     text-align: center;
-    color: white;
+    color: nth($listas-colores, 1 );
     background-color: black;
 
     &:hover{
         background-color: violet;
-        color: black;
+        color: nth($listas-colores, 4 );
     }
 }
 
 .pao{
-    width: 400px;
-    height: 300px;
+    @include medidas(400px,300px, white);
     margin: 20px;
     margin-left: 50px;
 
 }
-.uña{
+.una{
     color: white;
     border-radius: 3px;
     padding: 9px;
@@ -301,12 +276,12 @@
 
     &:hover{
         background-color: violet;
-        color: black;
+        color: nth($listas-colores, 4 );
     }
 }
 
 .station{
-    color: white;
+    color: nth($listas-colores, 1 );
     border-radius: 3px;
     padding: 9px;
     margin: 30px;
@@ -315,7 +290,7 @@
 
     &:hover{
         background-color: violet;
-        color: black;
+        color: nth($listas-colores, 4 );
     }
 }
 
@@ -330,10 +305,10 @@
 
     &:hover{
         background-color: violet;
-        color: black;
+        color: nth($listas-colores, 4 );
     }
 }
-.ajo{
+.ps4{
 
 display: flex;
 justify-content: space-evenly;
@@ -407,29 +382,13 @@ list-style: none;
     padding: 9px;
     margin: 30px;
     background-color: black;
-
-    &:hover{
-        background-color: violet;
-        color: whitesmoke;
-    }
-}
-
-.papa{
     text-align: center;
-    color: white;
-    border-radius: 3px;
-    padding: 9px;
-    background-color: black; 
 
     &:hover{
         background-color: violet;
         color: whitesmoke;
     }
 }
-
-
-
-    
 
 /* body de mis html */
 
@@ -439,7 +398,7 @@ list-style: none;
 #mouse{
     background-image: url(../imagenes/fondo-sega2.jpg);   
 }
-.pera{
+.ps5{
     background-image: url(../imagenes/fondo.png);
 }
 .ps2{
@@ -598,6 +557,13 @@ a{
         grid-column: span 3;
     }
 }
+.loli{
+    text-align: center;
+}
+.lara{
+    font-size: 20px;
+}
+
 
 /* vercion mobile,tablet y pc para index.html */
  /* version mobile para index.html */
@@ -749,7 +715,7 @@ a{
 
 /* vercion tablet para family*/
 @media screen and (min-width:768px ){
-    .pera{
+    .ps5{
         background-image: url(../imagenes/minecraf-juego.webp);
     }
     .pao{
@@ -759,7 +725,7 @@ a{
 }
 /* mq desktop */
 @media screen  and (min-width:1024px){
-    .pera{
+    .ps5{
         background-image: url(../imagenes/fondo.png);
         
     }
@@ -795,6 +761,25 @@ a{
         width: 430px;
 
     }
+    .zombie{
+        width:750px;
+        height: 300px;
+        margin-left: 30px;
+        
+    }
+    .toper{
+        margin-right: 30px;
+        font-size: 30px;
+    }
+    .card-text{
+        font-size: 30px;
+    }
+    .tere{
+        font-size: 20px;
+    }
+    .hy{
+        font-size: 60px;
+    }
 }
 /* version pc para ps2 */
 @media screen  and (min-width:1024px){
@@ -820,6 +805,10 @@ a{
     }
     #accordionExample{
         margin: 100px 30px 30px 30px;
+    }
+    .zombie{
+        width:980px;
+        margin-left: 60px;
     }
 }
 /* version tablet y pc para sega */
@@ -877,3 +866,4 @@ a{
         margin: 100px 30px 30px 30px;
     }
 }
+
