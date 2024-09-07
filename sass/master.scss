@@ -26,6 +26,7 @@
         margin: 20px;
         background-color: $color-principal;
         align-items: center;    
+        text-align: center;
         text-decoration: none;
     }
 }
@@ -55,7 +56,8 @@
     color: nth($listas-colores, 1 );
     border-radius: 9px;
     padding: 7px;
-   margin-left: 199px;
+    align-items: center;
+    text-align: center;
 
    &:hover{
     background-color: palevioletred;
@@ -79,6 +81,7 @@
 .bay{
     background-color:$color-principal;
     text-align: center;
+    align-items: center;
 
     &:hover{
         background-color: $color-principal;
@@ -109,6 +112,7 @@
 }
 h6{
     text-align: center;
+    align-items: center;
 }
 
 .barci{
@@ -117,6 +121,7 @@ h6{
     padding: 2px;
     margin: 10px;
     align-items: center;
+    text-align: center;
     background-color: $color-principal;
 
     &:hover{
@@ -302,7 +307,7 @@ h6{
     color: white;
     border-radius: 3px;
     padding: 2px;
-    margin: 10px;
+    align-items: center;
     background-color: black;
     text-align: center;
 
@@ -357,6 +362,7 @@ list-style: none;
     margin: 20px;
     background-color: black;
     align-items: center;   
+    text-align: center;
 
     &:hover{
         background-color: violet;
@@ -428,6 +434,7 @@ list-style: none;
 }
 h1{
     text-align: center;
+    align-items: center;
 }
 main nav ul{
     list-style: none;
@@ -445,6 +452,7 @@ footer a{
 
 h2{
     text-align: center;
+    align-items: center;
 }
 
 
@@ -481,20 +489,21 @@ a{
 
 
 /* carrousel */
-.slide{
-    margin-top: 10px;
+.animated{
+    margin-top: 5px;
 }
-.slide img{
-    height: 65vh;
+.animated img{
+    height: 45vh;
 }
 
 .card{
     display: flex;
     display: inline;
+    margin: auto;
 }
-.card-img-top{
-    width: 500px;
-    height: 200px;
+.card-body{
+text-align: center;
+align-items: center;
 }
      
  .accordion-button{
@@ -654,11 +663,12 @@ a{
       color: yellow;
     }
     .toper{
-        background-color: black;
+        background-color: rgb(0, 0, 0);
         color: whitesmoke;
         border-radius: 9px;
         padding: 7px;
-       margin-left: 300px;
+        text-align: center;
+        align-items: center;
     }
     .toper:hover{
         background-color: palevioletred;
@@ -697,7 +707,7 @@ a{
     background-color: black;
     color: whitesmoke;
    text-align: center;
-    margin: 20px;
+    align-items: center;
     padding: 10px;
     border-radius: 15px;
 }
@@ -709,14 +719,17 @@ a{
     color: whitesmoke;
     border-radius: 9px;
     padding: 7px;
-   margin-left: 600px;
+    text-align: center;
+    align-items: center;
+    margin-left: 60px;
 }
 .toper:hover{
     background-color: palevioletred;
     color: black;
 }
 .card{
-    margin-left: 199px;
+    text-align: center;
+    align-items: center;
 }
 
 }
@@ -874,4 +887,6 @@ a{
         margin: 100px 30px 30px 30px;
     }
 }
-
+*{
+    border: solid 2px red;
+}

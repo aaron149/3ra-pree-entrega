@@ -57,7 +57,6 @@
   margin: 20px;
   background-color: black;
   align-items: center;
-  text-align: center;
   text-decoration: none;
 }
 
@@ -87,8 +86,7 @@
   color: white;
   border-radius: 9px;
   padding: 7px;
-  align-items: center;
-  text-align: center;
+  margin-left: 199px;
 }
 .toper:hover {
   background-color: palevioletred;
@@ -111,7 +109,6 @@
 .bay {
   background-color: black;
   text-align: center;
-  align-items: center;
 }
 .bay:hover {
   background-color: black;
@@ -142,7 +139,6 @@
 
 h6 {
   text-align: center;
-  align-items: center;
 }
 
 .barci {
@@ -151,7 +147,6 @@ h6 {
   padding: 2px;
   margin: 10px;
   align-items: center;
-  text-align: center;
   background-color: black;
 }
 .barci:hover {
@@ -317,7 +312,7 @@ h6 {
   color: white;
   border-radius: 3px;
   padding: 2px;
-  align-items: center;
+  margin: 10px;
   background-color: black;
   text-align: center;
 }
@@ -365,7 +360,6 @@ h6 {
   margin: 20px;
   background-color: black;
   align-items: center;
-  text-align: center;
 }
 .pc:hover {
   background-color: violet;
@@ -438,7 +432,6 @@ h6 {
 
 h1 {
   text-align: center;
-  align-items: center;
 }
 
 main nav ul {
@@ -455,7 +448,6 @@ footer a {
 
 h2 {
   text-align: center;
-  align-items: center;
 }
 
 .card-text {
@@ -487,23 +479,22 @@ a {
 }
 
 /* carrousel */
-.animated {
-  margin-top: 5px;
+.slide {
+  margin-top: 10px;
 }
 
-.animated img {
-  height: 45vh;
+.slide img {
+  height: 65vh;
 }
 
 .card {
   display: flex;
   display: inline;
-  margin: auto;
 }
 
-.card-body {
-  text-align: center;
-  align-items: center;
+.card-img-top {
+  width: 500px;
+  height: 200px;
 }
 
 .accordion-button {
@@ -655,12 +646,11 @@ footer {
     color: yellow;
   }
   .toper {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     color: whitesmoke;
     border-radius: 9px;
     padding: 7px;
-    text-align: center;
-    align-items: center;
+    margin-left: 300px;
   }
   .toper:hover {
     background-color: palevioletred;
@@ -696,7 +686,7 @@ footer {
     background-color: black;
     color: whitesmoke;
     text-align: center;
-    align-items: center;
+    margin: 20px;
     padding: 10px;
     border-radius: 15px;
   }
@@ -708,17 +698,14 @@ footer {
     color: whitesmoke;
     border-radius: 9px;
     padding: 7px;
-    text-align: center;
-    align-items: center;
-    margin-left: 60px;
+    margin-left: 600px;
   }
   .toper:hover {
     background-color: palevioletred;
     color: black;
   }
   .card {
-    text-align: center;
-    align-items: center;
+    margin-left: 199px;
   }
 }
 /* vercion tablet para family*/
@@ -865,8 +852,5 @@ footer {
     margin: 100px 30px 30px 30px;
   }
 }
-* {
-  border: solid 2px red;
-}
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=master.css.map */
