@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   min-height: 70px;
 }
 .dual .juguemos {
@@ -865,7 +865,7 @@ footer {
   }
 }
 * {
-  border: solid 2px blue;
+  border: solid 2px red;
 }
 
 /*# sourceMappingURL=style.css.map */
