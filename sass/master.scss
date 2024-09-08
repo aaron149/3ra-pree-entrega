@@ -674,7 +674,7 @@ align-items: center;
         color: black;
     }
     
-    
+   
 }
 /* mq desktop */
 @media screen  and (min-width:1024px) {
@@ -890,10 +890,9 @@ align-items: center;
     border: solid 2px red;
 }
 .disco{
-    width: 1080px;
-    height: 1080px;
-    align-items: center;
-    text-align: center;
+    width: auto;
+    height: auto;
+    
 }
 .active{
     text-align: center;

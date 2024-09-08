@@ -869,10 +869,8 @@ footer {
 }
 
 .disco {
-  width: 1080px;
-  height: 1080px;
-  align-items: center;
-  text-align: center;
+  width: auto;
+  height: auto;
 }
 
 .active {
