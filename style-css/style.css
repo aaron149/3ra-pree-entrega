@@ -865,10 +865,6 @@ footer {
     margin: 100px 30px 30px 30px;
   }
 }
-* {
-  border: solid 2px red;
-}
-
 .disco {
   width: auto;
   height: auto;
@@ -877,6 +873,12 @@ footer {
 .active {
   text-align: center;
   align-items: center;
+}
+
+.imagen {
+  width: 1080px;
+  height: 300px;
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
