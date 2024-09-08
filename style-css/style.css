@@ -44,7 +44,6 @@
   width: 80px;
   height: 70px;
   border-radius: 10px;
-  margin-left: 10px;
   background-color: black;
   width: 80px;
   height: 70px;
@@ -866,7 +865,7 @@ footer {
   }
 }
 * {
-  border: solid 2px red;
+  border: solid 2px blue;
 }
 
 /*# sourceMappingURL=style.css.map */
