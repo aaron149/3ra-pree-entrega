@@ -28,6 +28,10 @@
         text-align: center;
         text-decoration: none;
     }
+    .imagen{
+        width: 200px;
+        height: 100px;
+    }
 }
 .bell{
     margin: 0 30px;
@@ -733,6 +737,11 @@ align-items: center;
     text-align: center;
     align-items: center;
 }
+.imagen{
+    width: 1080px;
+    height: 300px;
+    margin-left: 20px;
+}
 
 }
 
@@ -898,9 +907,4 @@ align-items: center;
 .active{
     text-align: center;
     align-items: center;
-}
-.imagen{
-    width: 1080px;
-    height: 300px;
-    margin-left: 20px;
 }
