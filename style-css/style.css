@@ -631,13 +631,14 @@ footer {
     grid-column: span 1;
     width: 430px;
   }
-  .card-img-top {
-    width: 800px;
-    height: 300px;
-    border-radius: 1%;
+  .family-imagen {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
   }
   .card {
-    margin-left: 20px;
+    margin-left: 75px;
   }
   /* #accordionExample{
       margin: 0% 30px 30px 30px;
